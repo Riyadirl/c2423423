@@ -1,0 +1,16 @@
+h1 {
+    color: white;
+    font-size: 2em;
+    margin: 0;
+    animation: binary-animation 1s infinite;
+  }
+  
+  @keyframes binary-animation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
